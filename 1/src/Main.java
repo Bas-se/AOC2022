@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<Integer> elveNumbers = new ArrayList<>();
-        Scanner sc = new Scanner(new File("src/calories.csv"));
+        Scanner sc = new Scanner(new File("calories.csv"));
         int currentNumber = 0;
         while(sc.hasNext()) {
             String next = sc.nextLine();
